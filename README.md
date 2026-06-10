@@ -6,6 +6,28 @@ Now that we’ve discussed more about object oriented design philosophies and te
 * [GitHub Repo](https://github.com/learn-co-curriculum/oop-p2-cash-register-lab)
 * [Python Classes](https://docs.python.org/3/tutorial/classes.html)
 
+## This Implementation
+
+This repository contains a `CashRegister` class implemented in `lib/cash_register.py`.
+
+- Supports a `discount` percentage (integer 0-100).
+- Tracks `total`, `items`, and `previous_transactions` for voiding and discount behavior.
+
+Screenshot of the implemented work (placeholder):
+
+![CashRegister Screenshot](assets/screenshot.png)
+
+Quick links:
+
+- Project repository: https://github.com/lenoxjavan-eng/oop-p2-cash-register-lab
+- Documentation on this implementation: https://makeareadme.com
+
+How to run the included tests locally without `pytest` installed:
+
+```bash
+python3 run_tests.py
+```
+
 ## Instructions
 
 ### Set Up

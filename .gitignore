@@ -1,3 +1,42 @@
 .venv
 .pytest_cache
-__pycache__
+__pycache__/
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Virtualenv
+.python-version
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Test artifacts
+.coverage
+htmlcov/
+
+# Run tests runner
+run_tests.py
